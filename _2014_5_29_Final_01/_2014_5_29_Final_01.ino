@@ -1,5 +1,3 @@
-#include "guang.h"
-#include "stepperG.h"
 /* Prototype of my Graduation project.
  * Work prinzip: GCode parser read and understand the command from serial port. If this is the
  * movement command, inverse kenamatic translate the target position into new length of each 
@@ -15,10 +13,48 @@
  *
  */
 
-#include "Gfaststepper.h"
+#include "guang.h"
+#include "stepperG.h"
+#include "pins.h"
+
 #include <inttypes.h>
 #include <avr/io.h>
 #include "stepperG.h"
+
+//this part was included in Gfaststepper library. But this library didn't compiled correctly.
+//So I copy the contente directely here.
+//#include "Gfaststepper.h" 
+#include <stdlib.h>
+class Gfaststepper {
+public:
+	//Constructor
+	Gfaststepper(uint8_t puls = 29, uint8_t direction = 30);
+	
+	//move one step belong the "direction"
+	void oneStep(uint8_t direction=1);
+private:
+	uint8_t _puls; //puls control pin of the driver
+	
+	uint8_t _direction; //direction control pin of the driver
+};
+
+Gfaststepper::Gfaststepper(uint8_t puls, uint8_t direction){
+	_puls = puls;
+	_direction = direction;
+	
+	pinMode(_puls, OUTPUT);
+	pinMode(_direction, OUTPUT);
+}
+
+void Gfaststepper::oneStep(uint8_t direction){
+	//in order to speed up the excute, ignore the possibility direction use a number not be 1 or 0
+	digitalWrite(_direction, direction);
+	digitalWrite(_puls, HIGH);
+	//Serial.println("Signal pulled high");
+	delayMicroseconds(1); //tried works for this driver
+	digitalWrite(_puls, LOW);
+	//delayMicroseconds(_delayTime); //only one step don't need wait.
+}
 
 //------------------------------------------------------------------------------
 // PIN defination

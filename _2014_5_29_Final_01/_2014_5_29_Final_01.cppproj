@@ -64,8 +64,6 @@
           <ListValues>
             <Value>C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino</Value>
             <Value>C:\Program Files (x86)\Arduino\hardware\arduino\variants\mega</Value>
-            <Value>C:\Users\SuGao\Documents\Arduino\libraries\Gfaststepper</Value>
-            <Value>C:\Users\SuGao\Documents\Arduino\libraries\Gfaststepper\utility</Value>
             <Value>C:\Program Files (x86)\Arduino\libraries</Value>
             <Value>C:\Program Files (x86)\Arduino\hardware\arduino\libraries</Value>
             <Value>C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers</Value>
@@ -98,8 +96,6 @@
           <ListValues>
             <Value>C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino</Value>
             <Value>C:\Program Files (x86)\Arduino\hardware\arduino\variants\mega</Value>
-            <Value>C:\Users\SuGao\Documents\Arduino\libraries\Gfaststepper</Value>
-            <Value>C:\Users\SuGao\Documents\Arduino\libraries\Gfaststepper\utility</Value>
             <Value>C:\Program Files (x86)\Arduino\libraries</Value>
             <Value>C:\Program Files (x86)\Arduino\hardware\arduino\libraries</Value>
             <Value>C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers</Value>
@@ -223,8 +219,6 @@ build.arch=AVR
           <ListValues>
             <Value>C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino</Value>
             <Value>C:\Program Files (x86)\Arduino\hardware\arduino\variants\mega</Value>
-            <Value>C:\Users\SuGao\Documents\Arduino\libraries\Gfaststepper</Value>
-            <Value>C:\Users\SuGao\Documents\Arduino\libraries\Gfaststepper\utility</Value>
             <Value>C:\Program Files (x86)\Arduino\libraries</Value>
             <Value>C:\Program Files (x86)\Arduino\hardware\arduino\libraries</Value>
             <Value>C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers</Value>
@@ -257,8 +251,6 @@ build.arch=AVR
           <ListValues>
             <Value>C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino</Value>
             <Value>C:\Program Files (x86)\Arduino\hardware\arduino\variants\mega</Value>
-            <Value>C:\Users\SuGao\Documents\Arduino\libraries\Gfaststepper</Value>
-            <Value>C:\Users\SuGao\Documents\Arduino\libraries\Gfaststepper\utility</Value>
             <Value>C:\Program Files (x86)\Arduino\libraries</Value>
             <Value>C:\Program Files (x86)\Arduino\hardware\arduino\libraries</Value>
             <Value>C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers</Value>
