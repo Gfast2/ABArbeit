@@ -15,7 +15,7 @@
  *
  */
 
-#include <Gfaststepper.h>
+#include "Gfaststepper.h"
 #include <inttypes.h>
 #include <avr/io.h>
 #include "stepperG.h"
@@ -318,7 +318,6 @@ void setup(){
 
   //setFeedRate(MAX_VEL*30/mode_scale);  // *30 because i also /2
   //setFeedRate(2000); //start at a lower speed.
-  
   Serial.println("laststep1:" + String(laststep1));
   Serial.println("laststep2:" + String(laststep2));
   Serial.println("laststep3:" + String(laststep3));

@@ -62,18 +62,18 @@
         </avrgcc.compiler.symbols.DefSymbols>
         <avrgcc.compiler.directories.IncludePaths>
           <ListValues>
-            <Value>C:\Program Files\Arduino\hardware\arduino\cores\arduino</Value>
-            <Value>C:\Program Files\Arduino\hardware\arduino\variants\mega</Value>
-            <Value>C:\Program Files\Arduino\libraries\Gfaststepper</Value>
-            <Value>C:\Program Files\Arduino\libraries\Gfaststepper\utility</Value>
-            <Value>C:\Program Files\Arduino\libraries</Value>
-            <Value>C:\Program Files\Arduino\hardware\arduino\libraries</Value>
-            <Value>C:\Program Files\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers</Value>
-            <Value>C:\Program Files\Atmel\Atmel Studio 6.2\Libraries\Documents\Arduino\libraries</Value>
-            <Value>c:\program files\arduino\hardware\tools\avr\avr\include\</Value>
-            <Value>c:\program files\arduino\hardware\tools\avr\avr\include\avr\</Value>
-            <Value>c:\program files\arduino\hardware\tools\avr\avr\</Value>
-            <Value>c:\program files\arduino\hardware\tools\avr\lib\gcc\avr\4.3.2\include\</Value>
+            <Value>C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino</Value>
+            <Value>C:\Program Files (x86)\Arduino\hardware\arduino\variants\mega</Value>
+            <Value>C:\Users\SuGao\Documents\Arduino\libraries\Gfaststepper</Value>
+            <Value>C:\Users\SuGao\Documents\Arduino\libraries\Gfaststepper\utility</Value>
+            <Value>C:\Program Files (x86)\Arduino\libraries</Value>
+            <Value>C:\Program Files (x86)\Arduino\hardware\arduino\libraries</Value>
+            <Value>C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers</Value>
+            <Value>C:\Users\SuGao\Documents\Arduino\libraries</Value>
+            <Value>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\</Value>
+            <Value>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\</Value>
+            <Value>c:\program files (x86)\arduino\hardware\tools\avr\avr\</Value>
+            <Value>c:\program files (x86)\arduino\hardware\tools\avr\lib\gcc\avr\4.3.2\include\</Value>
           </ListValues>
         </avrgcc.compiler.directories.IncludePaths>
         <avrgcc.compiler.optimization.level>Optimize (-O1)</avrgcc.compiler.optimization.level>
@@ -96,18 +96,18 @@
         </avrgcccpp.compiler.symbols.DefSymbols>
         <avrgcccpp.compiler.directories.IncludePaths>
           <ListValues>
-            <Value>C:\Program Files\Arduino\hardware\arduino\cores\arduino</Value>
-            <Value>C:\Program Files\Arduino\hardware\arduino\variants\mega</Value>
-            <Value>C:\Program Files\Arduino\libraries\Gfaststepper</Value>
-            <Value>C:\Program Files\Arduino\libraries\Gfaststepper\utility</Value>
-            <Value>C:\Program Files\Arduino\libraries</Value>
-            <Value>C:\Program Files\Arduino\hardware\arduino\libraries</Value>
-            <Value>C:\Program Files\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers</Value>
-            <Value>C:\Program Files\Atmel\Atmel Studio 6.2\Libraries\Documents\Arduino\libraries</Value>
-            <Value>c:\program files\arduino\hardware\tools\avr\avr\include\</Value>
-            <Value>c:\program files\arduino\hardware\tools\avr\avr\include\avr\</Value>
-            <Value>c:\program files\arduino\hardware\tools\avr\avr\</Value>
-            <Value>c:\program files\arduino\hardware\tools\avr\lib\gcc\avr\4.3.2\include\</Value>
+            <Value>C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino</Value>
+            <Value>C:\Program Files (x86)\Arduino\hardware\arduino\variants\mega</Value>
+            <Value>C:\Users\SuGao\Documents\Arduino\libraries\Gfaststepper</Value>
+            <Value>C:\Users\SuGao\Documents\Arduino\libraries\Gfaststepper\utility</Value>
+            <Value>C:\Program Files (x86)\Arduino\libraries</Value>
+            <Value>C:\Program Files (x86)\Arduino\hardware\arduino\libraries</Value>
+            <Value>C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers</Value>
+            <Value>C:\Users\SuGao\Documents\Arduino\libraries</Value>
+            <Value>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\</Value>
+            <Value>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\</Value>
+            <Value>c:\program files (x86)\arduino\hardware\tools\avr\avr\</Value>
+            <Value>c:\program files (x86)\arduino\hardware\tools\avr\lib\gcc\avr\4.3.2\include\</Value>
             <Value>
             </Value>
           </ListValues>
@@ -221,18 +221,18 @@ build.arch=AVR
         </avrgcc.compiler.symbols.DefSymbols>
         <avrgcc.compiler.directories.IncludePaths>
           <ListValues>
-            <Value>C:\Program Files\Arduino\hardware\arduino\cores\arduino</Value>
-            <Value>C:\Program Files\Arduino\hardware\arduino\variants\mega</Value>
-            <Value>C:\Program Files\Arduino\libraries\Gfaststepper</Value>
-            <Value>C:\Program Files\Arduino\libraries\Gfaststepper\utility</Value>
-            <Value>C:\Program Files\Arduino\libraries</Value>
-            <Value>C:\Program Files\Arduino\hardware\arduino\libraries</Value>
-            <Value>C:\Program Files\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers</Value>
-            <Value>C:\Program Files\Atmel\Atmel Studio 6.2\Libraries\Documents\Arduino\libraries</Value>
-            <Value>c:\program files\arduino\hardware\tools\avr\avr\include\</Value>
-            <Value>c:\program files\arduino\hardware\tools\avr\avr\include\avr\</Value>
-            <Value>c:\program files\arduino\hardware\tools\avr\avr\</Value>
-            <Value>c:\program files\arduino\hardware\tools\avr\lib\gcc\avr\4.3.2\include\</Value>
+            <Value>C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino</Value>
+            <Value>C:\Program Files (x86)\Arduino\hardware\arduino\variants\mega</Value>
+            <Value>C:\Users\SuGao\Documents\Arduino\libraries\Gfaststepper</Value>
+            <Value>C:\Users\SuGao\Documents\Arduino\libraries\Gfaststepper\utility</Value>
+            <Value>C:\Program Files (x86)\Arduino\libraries</Value>
+            <Value>C:\Program Files (x86)\Arduino\hardware\arduino\libraries</Value>
+            <Value>C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers</Value>
+            <Value>C:\Users\SuGao\Documents\Arduino\libraries</Value>
+            <Value>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\</Value>
+            <Value>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\</Value>
+            <Value>c:\program files (x86)\arduino\hardware\tools\avr\avr\</Value>
+            <Value>c:\program files (x86)\arduino\hardware\tools\avr\lib\gcc\avr\4.3.2\include\</Value>
           </ListValues>
         </avrgcc.compiler.directories.IncludePaths>
         <avrgcc.compiler.optimization.level>Optimize (-O1)</avrgcc.compiler.optimization.level>
@@ -255,18 +255,18 @@ build.arch=AVR
         </avrgcccpp.compiler.symbols.DefSymbols>
         <avrgcccpp.compiler.directories.IncludePaths>
           <ListValues>
-            <Value>C:\Program Files\Arduino\hardware\arduino\cores\arduino</Value>
-            <Value>C:\Program Files\Arduino\hardware\arduino\variants\mega</Value>
-            <Value>C:\Program Files\Arduino\libraries\Gfaststepper</Value>
-            <Value>C:\Program Files\Arduino\libraries\Gfaststepper\utility</Value>
-            <Value>C:\Program Files\Arduino\libraries</Value>
-            <Value>C:\Program Files\Arduino\hardware\arduino\libraries</Value>
-            <Value>C:\Program Files\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers</Value>
-            <Value>C:\Program Files\Atmel\Atmel Studio 6.2\Libraries\Documents\Arduino\libraries</Value>
-            <Value>c:\program files\arduino\hardware\tools\avr\avr\include\</Value>
-            <Value>c:\program files\arduino\hardware\tools\avr\avr\include\avr\</Value>
-            <Value>c:\program files\arduino\hardware\tools\avr\avr\</Value>
-            <Value>c:\program files\arduino\hardware\tools\avr\lib\gcc\avr\4.3.2\include\</Value>
+            <Value>C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino</Value>
+            <Value>C:\Program Files (x86)\Arduino\hardware\arduino\variants\mega</Value>
+            <Value>C:\Users\SuGao\Documents\Arduino\libraries\Gfaststepper</Value>
+            <Value>C:\Users\SuGao\Documents\Arduino\libraries\Gfaststepper\utility</Value>
+            <Value>C:\Program Files (x86)\Arduino\libraries</Value>
+            <Value>C:\Program Files (x86)\Arduino\hardware\arduino\libraries</Value>
+            <Value>C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers</Value>
+            <Value>C:\Users\SuGao\Documents\Arduino\libraries</Value>
+            <Value>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\</Value>
+            <Value>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\</Value>
+            <Value>c:\program files (x86)\arduino\hardware\tools\avr\avr\</Value>
+            <Value>c:\program files (x86)\arduino\hardware\tools\avr\lib\gcc\avr\4.3.2\include\</Value>
             <Value>
             </Value>
           </ListValues>
