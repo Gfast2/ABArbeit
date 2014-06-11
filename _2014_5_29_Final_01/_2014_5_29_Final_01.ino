@@ -331,23 +331,7 @@ void setup(){
   COORDMOTORC[X] = cos(DELTA_ALPHA_C * M_PI / 180) * mmToStep(DELTA_RADIUS);
   COORDMOTORC[Y] = sin(DELTA_ALPHA_C * M_PI / 180) * mmToStep(DELTA_RADIUS);
   COORDMOTORA[Z] = COORDMOTORB[Z] = COORDMOTORC[Z] = mmToStep(DELTA_Z);
-  /* This way to calculate laststep1-3 have problem on DELTA_Z.
-  //long tempStartPoint = sqrt(DELTA_RADIUS * DELTA_RADIUS + DELTA_Z * DELTA_Z); //GUANG start from ground (Z=0) on coordinate (0,0)
-  Serial.print(F("DELTA_Z "));
-  Serial.println(DELTA_Z);
-  long temp = (2600) * (2600); //DELTA_Z
-  long temp2= DELTA_RADIUS * DELTA_RADIUS;
-  Serial.print("temp: ");
-  Serial.print(temp);
-  Serial.print(" temp2: ");
-  Serial.println(temp2);
-  unsigned long tempStartPoint = sqrt(temp + temp2); //GUANG start from ground (Z=0) on coordinate (0,0)
-  Serial.print(F("Seile long in mm: "));
-  Serial.println(tempStartPoint);
-  laststep1 = mmToStep(tempStartPoint);//suppose the light start from ground of the triagle center//mmToStep(1000*2/sqrt(3));
-  laststep2 = mmToStep(tempStartPoint);//mmToStep(1000*2/sqrt(3));
-  laststep3 = mmToStep(tempStartPoint);//mmToStep(1000*2/sqrt(3));
-  */
+
   IK(0,0,1500,laststep1,laststep2,laststep3);  //initial start point (0,0,1500) unit:mm
 
   sofar=0;   // initialize the read buffer
