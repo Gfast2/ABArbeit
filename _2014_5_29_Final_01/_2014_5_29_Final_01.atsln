@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Atmel Studio Solution File, Format Version 11.00
 Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "_2014_5_29_Final_01", "_2014_5_29_Final_01.cppproj", "{AEDF0571-B525-452B-ACB4-167B8B52E496}"
 EndProject
-Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "Marlin", "..\Marlin-Marlin_v1\Marlin\Marlin.cppproj", "{07B459B4-8D76-4638-BC6D-A459BA2D616B}"
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "Marlin", "..\..\..\Arduino\Marlin\Marlin\Marlin.cppproj", "{07B459B4-8D76-4638-BC6D-A459BA2D616B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
